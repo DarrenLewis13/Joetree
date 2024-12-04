@@ -1,0 +1,323 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body and General Styles */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background-color: #2e7d32; /* Dark Green */
+  color: white;
+  padding: 15px 0;
+}
+
+header .logo h1 {
+  margin-left: 20px;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: url('tree-removal.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #1b5e20;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #1b5e20;
+}
+
+.cta-btn {
+  background-color: #f39c12; /* Yellow-orange */
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta-btn:hover {
+  background-color: #e67e22; /* Darker orange */
+}
+
+/* About Section */
+.about {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* Services Section */
+.services {
+  background-color: #e8f5e9; /* Light Green */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.service-item {
+  background-color: #ffffff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 18px;
+}
+
+/* Why Choose Us Section */
+.why-choose {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.why-choose h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.why-choose ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.why-choose ul li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-left: 5px solid #2e7d32;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+footer blockquote footer {
+  font-style: normal;
+  text-align: right;
+  color: #555;
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.gallery h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery-images img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact {
+  background-color: #e8f5e9; /* Light Green */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #2e7d32; /* Dark Green */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #1b5e20; /* Darker Green */
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #2e7d32; /* Dark Green */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .footer-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .footer-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer .footer-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer .footer-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .social-media a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .social-media a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero h2 {
+      font-size: 28px;
+  }
+
+  .service-item {
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .gallery-images {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .contact form {
+      width: 100%;
+      padding: 0 20px;
+  }
+}
+
+#logo {color: #1b5e20;}
